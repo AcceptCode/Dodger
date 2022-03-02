@@ -13,7 +13,7 @@ logo = pygame.image.load("Assets\\Pics\\logo.ico")
 pygame.display.set_caption("Dodger!")
 pygame.display.set_icon(logo)
 
-
+# GameState Handler
 class GameState:
     def __init__(self):
         self.game_active = False
@@ -154,7 +154,7 @@ class PlayerCar(pygame.sprite.Sprite):
             healthbar.healthbarimg = pygame.image.load("Assets\\Pics\\25.png")
         if self.health <= 0:
             healthbar.healthbarimg = pygame.image.load("Assets\\Pics\\empty.png")
-
+# Enemy Class
 class EnemyCar(pygame.sprite.Sprite):
     def __init__(self, img, x, y, max_x):
         super().__init__()
