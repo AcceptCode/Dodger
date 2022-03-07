@@ -1,6 +1,13 @@
 # Dodger
-a simple game(and my first), that i made using pygame. doesn't have 4K UHD Crystal Clear Gameplay© but it works! 
+a simple game(and my first), that i made using pygame 2.0.
 
-![car_enemy_red](https://user-images.githubusercontent.com/100288778/155762294-fc480eb6-2906-49e6-b614-9b424afb5cd4.png)
+CONTROLS: arrow keys
 
-Dodger is a very small and basic game i am wroking on. more updates will come!
+# The itch.io page for this game:
+https://gamepy.itch.io/dodger
+
+# UPCOMING UPDATES:
+1. some sort of high score function
+2. different costumes for the enemy cars
+
+Current Version: v1.0.0
