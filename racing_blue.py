@@ -21,7 +21,6 @@ class GameState:
         self.reg_health = False
         self.refill_spawn = False
         self.counter = 0
-        self.save_score = False
 
     def play_bg_music(self, sound):
         pygame.mixer.music.load(sound)
@@ -37,9 +36,6 @@ class GameState:
         beep = pygame.mixer.Sound(sound)
         beep.set_volume(0.1)
         beep.play(loops=0)
-
-    def keep_score(self):
-        pass
 
     def score(self, color, font, size, x, y, surf):
         current = int(pygame.time.get_ticks()/1000) - self.counter
