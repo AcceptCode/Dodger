@@ -7,8 +7,7 @@ CONTROLS: arrow keys
 https://gamepy.itch.io/dodger
 
 # UPCOMING UPDATES:
-~~1. some sort of high score function~~(Update is not being developed)
 
-2. different costumes for the enemy cars
+1. different costumes for the enemy cars
 
 Current Version: v1.0.0
