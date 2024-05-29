@@ -1,4 +1,5 @@
 # Dodger
+# UPDATE 2024: NO LONGER UPDATED
 a simple game(and my first), that i made using pygame 2.0.
 
 CONTROLS: arrow keys
